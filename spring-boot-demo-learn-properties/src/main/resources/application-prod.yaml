@@ -1,0 +1,8 @@
+application:
+  name: prod环境 @artifactId@
+  version: prod环境 @version@
+developer:
+  name: prod环境 yucoding
+  website: prod环境 http://yucoding.com
+  qq: prod环境 63xxxxxxx
+  phone-number: prod环境 136xxxxxxxx

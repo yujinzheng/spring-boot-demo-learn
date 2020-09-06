@@ -1,0 +1,8 @@
+application:
+  name: dev环境 @artifactId@
+  version: dev环境 @version@
+developer:
+  name: dev环境 yucoding
+  website: dev环境 http://yucoding.com
+  qq: dev环境 63xxxxxxx
+  phone-number: dev环境 136xxxxxxxx

@@ -1,0 +1,25 @@
+# 指定一个与admin server不同的端口
+server:
+  port: 8090
+spring:
+  # 配置client应用名
+  application:
+    name: spring-boot-demo-learn-admin-client
+  boot:
+    # 指定server的地址
+    admin:
+      client:
+        url: "http://localhost:8080"
+# 配置actuator，显示所有health信息
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+# 配置日志文件的路径
+logging:
+  file:
+    path: "logs/app.log"
